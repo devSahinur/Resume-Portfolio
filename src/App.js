@@ -8,6 +8,9 @@ import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
 
+import MouseParticles from 'react-mouse-particles';
+import ParticlesBg from "particles-bg";
+
 import "./App.css";
 
 const App = () => {
@@ -30,6 +33,7 @@ const App = () => {
       <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
+      <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
     </div>
   );
 };
