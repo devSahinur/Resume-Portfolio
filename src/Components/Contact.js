@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from 'emailjs-com';
 
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
@@ -27,6 +28,20 @@ const Contact = ({ data }) => {
     );
   };
 
+  //Email send option
+    
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5gw3s7q', 'template_t63uuiv', e.target, 'user_TPkO5ffW4BWFdefYn7AXk')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
   return (
     <section id="contact">
       <div className="row section-head">
@@ -43,7 +58,7 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form onSubmit={submitForm}>
+          <form onSubmit={sendEmail}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -55,7 +70,7 @@ const Contact = ({ data }) => {
                   value={name}
                   size="35"
                   id="contactName"
-                  name="contactName"
+                  name="name"
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
@@ -70,7 +85,7 @@ const Contact = ({ data }) => {
                   value={email}
                   size="35"
                   id="contactEmail"
-                  name="contactEmail"
+                  name="email"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
@@ -83,7 +98,7 @@ const Contact = ({ data }) => {
                   value={subject}
                   size="35"
                   id="contactSubject"
-                  name="contactSubject"
+                  name="subject"
                   onChange={(e) => setSubject(e.target.value)}
                 />
               </div>
@@ -98,7 +113,7 @@ const Contact = ({ data }) => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
-                  name="contactMessage"
+                  name="message"
                 ></textarea>
               </div>
 
