@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Sahinur Islam",
-    "occupation": "CEO of Ammo Coder",
+    "occupation": "CEO of Ammo Coders",
     "description": "I eat, sleep and coding",
     "image": "profilepic.jpg",
     "bio": "Hi there! I am Sahinur! I am a web developer. I have skills in a variety of technologies, programming languages and frameworks. Especially has a lot of skills and knowledge on HTML 5, CSS, Bootstrap, Tailwind CSS, JavaScript, React, MongoDB. I am very good at JavaScript based software development such as: - MERN Stack (MongoDB, Express.js, React, Node.js)",
@@ -14,8 +14,8 @@
       "state": "Taraganj",
       "zip": "Q237+VP Sayar"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "https://sahinur.netlify.app/",
+    "resumedownload": "https://docs.google.com/document/d/1WYx8DZMBEnuEHbBxbvIU6jNWLfhGQAzBNvmTCbMHmzA/edit?usp=sharing",
     "social": [
       {
         "name": "facebook",
