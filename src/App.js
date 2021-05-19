@@ -32,7 +32,7 @@ const App = () => {
       <Testimonials data={resumeData.testimonials} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
-      <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
+      <MouseParticles g={0.1} color="random" cull="col,image-wrapper"/>
     </div>
   );
 };

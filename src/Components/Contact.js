@@ -18,15 +18,15 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
-  };
+  // const submitForm = () => {
+  //   window.open(
+  //     `mailto:${contactEmail}?subject=${encodeURIComponent(
+  //       subject
+  //     )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+  //       email
+  //     )}): ${encodeURIComponent(message)}`
+  //   );
+  // };
 
   //Email send option
     
@@ -118,7 +118,7 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
+                <button type="submit" className="submit">
                   Submit
                 </button>
               </div>
