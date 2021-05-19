@@ -9,7 +9,6 @@ import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
 
 import MouseParticles from 'react-mouse-particles';
-import ParticlesBg from "particles-bg";
 
 import "./App.css";
 
