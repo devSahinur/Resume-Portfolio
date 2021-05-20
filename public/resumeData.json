@@ -68,8 +68,8 @@
         "level": "90%"
       },
       {
-        "name": "Python",
-        "level": "60%"
+        "name": "NextJs",
+        "level": "90%"
       },
       {
         "name": "Git",
@@ -80,8 +80,12 @@
         "level": "90%"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "TypeScript",
+        "level": "60%"
+      },
+      {
+        "name": "Python",
+        "level": "50%"
       }
     ]
   },
@@ -94,12 +98,6 @@
         "url": "https://taravels.netlify.app"
       },
       {
-        "title": "Ema-John Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://cooltech.netlify.app"
-      },
-      {
         "title": "Hero Team (React JS)",
         "category": "",
         "image": "linkedin.jpg",
@@ -110,6 +108,12 @@
         "category": "",
         "image": "pionner.png",
         "url": "https://sahin.netlify.app/"
+      },
+      {
+        "title": "The Sport Leagues (React JS)",
+        "category": "",
+        "image": "Team.png",
+        "url": "https://thesportsleagues.netlify.app/"
       }
     ]
   },
