@@ -104,10 +104,10 @@
         "url": "https://heros-team.netlify.app"
       },
       {
-        "title": "Pionner Bank (JavaScript)",
+        "title": "Amazon 2.0 (Next JS, stripe, tailwind css)",
         "category": "",
-        "image": "pionner.png",
-        "url": "https://sahin.netlify.app/"
+        "image": "amazon.png ",
+        "url": "https://amazon-clone-sahinur.vercel.app/"
       },
       {
         "title": "The Sport Leagues (React JS)",
